@@ -3,7 +3,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "Charts",
+    name: "NanitCharts",
     platforms: [
           .iOS(.v9),
           .tvOS(.v9),
@@ -11,11 +11,11 @@ let package = Package(
     ],
     products: [
         .library(
-            name: "Charts",
-            targets: ["Charts"]),
+            name: "NanitCharts",
+            targets: ["NanitCharts"]),
     ],
     targets: [
-        .target(name: "Charts")
+        .target(name: "NanitCharts")
     ],
     swiftLanguageVersions: [.v5]
 )
